@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 882
+  Height = 543
+  Top = 116
+  Width = 471
+  Caption = 'Form Data Mahasiswa'
+  ClientHeight = 543
+  ClientWidth = 471
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 21
+    Height = 17
+    Top = 19
+    Width = 107
+    Caption = 'DATA MAHASISWA'
+  end
+  object Label2: TLabel
+    Left = 21
+    Height = 17
+    Top = 59
+    Width = 145
+    Caption = 'Nomor Induk Mahasiswa'
+  end
+  object Label3: TLabel
+    Left = 21
+    Height = 17
+    Top = 88
+    Width = 103
+    Caption = 'Nama Mahasiswa'
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 17
+    Top = 120
+    Width = 84
+    Caption = 'Program Studi'
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 17
+    Top = 152
+    Width = 44
+    Caption = 'Jenjang'
+  end
+end

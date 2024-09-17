@@ -1,0 +1,302 @@
+object Form1: TForm1
+  Left = 810
+  Height = 562
+  Top = 115
+  Width = 538
+  Caption = 'FormMenuMakanan'
+  ClientHeight = 562
+  ClientWidth = 538
+  Color = 7368126
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 173
+    Height = 25
+    Top = 30
+    Width = 206
+    Caption = 'PILIH MENU MAKANAN'
+    Color = clWindow
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -18
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 38
+    Height = 115
+    Top = 70
+    Width = 236
+    AutoFill = True
+    Caption = 'Nasi'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 93
+    ClientWidth = 232
+    OnClick = RadioGroup1Click
+    ParentBackground = False
+    TabOrder = 0
+    object nasiPutih: TRadioButton
+      Left = 6
+      Height = 31
+      Top = 0
+      Width = 220
+      Caption = 'Putih'
+      TabOrder = 0
+      OnChange = nasiPutihChange
+    end
+    object nasiUduk: TRadioButton
+      Left = 6
+      Height = 31
+      Top = 31
+      Width = 220
+      Caption = 'Uduk'
+      TabOrder = 1
+      OnChange = nasiUdukChange
+    end
+    object nasiKuning: TRadioButton
+      Left = 6
+      Height = 31
+      Top = 62
+      Width = 220
+      Caption = 'Kuning'
+      TabOrder = 2
+      OnChange = nasiKuningChange
+    end
+    object nasiLiwet: TRadioButton
+      Left = 168
+      Height = 21
+      Top = 6
+      Width = 47
+      Align = alCustom
+      Caption = 'Liwet'
+      TabOrder = 3
+      OnChange = nasiLiwetChange
+    end
+    object nasiGoreng: TRadioButton
+      Left = 168
+      Height = 21
+      Top = 48
+      Width = 62
+      Align = alCustom
+      Caption = 'Goreng'
+      TabOrder = 4
+      OnChange = nasiGorengChange
+    end
+  end
+  object CheckGroup1: TCheckGroup
+    Left = 38
+    Height = 166
+    Top = 230
+    Width = 236
+    AutoFill = True
+    Caption = 'Lauk'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 144
+    ClientWidth = 232
+    ParentBackground = False
+    TabOrder = 1
+    object laukDaging: TCheckBox
+      Left = 6
+      Height = 27
+      Top = 6
+      Width = 220
+      Caption = 'Daging'
+      TabOrder = 0
+      OnChange = laukDagingChange
+    end
+    object laukAyam: TCheckBox
+      Left = 6
+      Height = 27
+      Top = 33
+      Width = 220
+      Caption = 'Ayam'
+      TabOrder = 1
+      OnChange = laukAyamChange
+    end
+    object laukIkan: TCheckBox
+      Left = 6
+      Height = 27
+      Top = 60
+      Width = 220
+      Caption = 'Ikan'
+      TabOrder = 2
+      OnChange = laukIkanChange
+    end
+    object laukTahu: TCheckBox
+      Left = 6
+      Height = 27
+      Top = 87
+      Width = 220
+      Caption = 'Tahu'
+      TabOrder = 3
+      OnChange = laukTahuChange
+    end
+    object laukTempe: TCheckBox
+      Left = 6
+      Height = 24
+      Top = 114
+      Width = 220
+      Caption = 'Tempe'
+      TabOrder = 4
+      OnChange = laukTempeChange
+    end
+  end
+  object Label2: TLabel
+    Left = 38
+    Height = 21
+    Top = 198
+    Width = 55
+    Caption = 'Minum'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 378
+    Height = 25
+    Top = 115
+    Width = 52
+    Caption = 'Harga'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWindow
+    Font.Height = -18
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object listMinum: TComboBox
+    Left = 109
+    Height = 24
+    Top = 201
+    Width = 166
+    Font.Name = 'ListMinum'
+    ItemHeight = 16
+    Items.Strings = (
+      'Es teh'
+      'Air Mineral'
+      'Es kopi'
+      'Jus Jeruk'
+    )
+    ParentFont = False
+    TabOrder = 2
+    Text = 'List Minum'
+    OnChange = listMinumChange
+  end
+  object hargaNasi: TEdit
+    Left = 307
+    Height = 24
+    Top = 163
+    Width = 208
+    Font.Name = 'hargaNasi'
+    ParentFont = False
+    TabOrder = 3
+    OnChange = hargaNasiChange
+  end
+  object hargaMinum: TEdit
+    Left = 307
+    Height = 24
+    Top = 200
+    Width = 208
+    Font.Name = 'hargaMinum'
+    ParentFont = False
+    TabOrder = 4
+    OnChange = hargaMinumChange
+  end
+  object hargaDaging: TEdit
+    Left = 307
+    Height = 25
+    Top = 262
+    Width = 208
+    TabOrder = 5
+    OnChange = hargaDagingChange
+  end
+  object hargaAyam: TEdit
+    Left = 307
+    Height = 25
+    Top = 288
+    Width = 208
+    TabOrder = 6
+  end
+  object hargaIkan: TEdit
+    Left = 307
+    Height = 25
+    Top = 314
+    Width = 208
+    TabOrder = 7
+  end
+  object hargaTahu: TEdit
+    Left = 307
+    Height = 25
+    Top = 339
+    Width = 208
+    TabOrder = 8
+  end
+  object hargaTempe: TEdit
+    Left = 307
+    Height = 25
+    Top = 365
+    Width = 208
+    TabOrder = 9
+    OnChange = hargaTempeChange
+  end
+  object Label4: TLabel
+    Left = 237
+    Height = 21
+    Top = 418
+    Width = 38
+    Caption = 'Total'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object totalHarga: TEdit
+    Left = 307
+    Height = 25
+    Top = 422
+    Width = 205
+    TabOrder = 10
+    OnChange = totalHargaChange
+  end
+  object ButtonExit: TButton
+    Left = 448
+    Height = 25
+    Top = 528
+    Width = 75
+    Caption = 'Keluar'
+    TabOrder = 11
+    OnClick = ButtonExitClick
+  end
+  object ButtonPrint: TButton
+    Left = 307
+    Height = 25
+    Top = 456
+    Width = 75
+    Caption = 'Print'
+    TabOrder = 12
+  end
+end
