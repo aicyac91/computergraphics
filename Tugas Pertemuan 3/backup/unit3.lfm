@@ -1632,9 +1632,9 @@ object FormImage: TFormImage
     }
   end
   object TasPutih: TImage
-    Left = 109
+    Left = 134
     Height = 320
-    Top = 32
+    Top = 48
     Width = 237
     OnClick = TasPutihClick
     Picture.Data = {
@@ -3762,9 +3762,9 @@ object FormImage: TFormImage
     }
   end
   object TasMerah: TImage
-    Left = 96
+    Left = 120
     Height = 237
-    Top = 102
+    Top = 131
     Width = 275
     OnClick = TasMerahClick
     Picture.Data = {
@@ -7027,9 +7027,9 @@ object FormImage: TFormImage
     }
   end
   object TasBiruMuda: TImage
-    Left = 128
+    Left = 160
     Height = 218
-    Top = 128
+    Top = 150
     Width = 205
     OnClick = TasBiruMudaClick
     Picture.Data = {
@@ -9430,9 +9430,9 @@ object FormImage: TFormImage
     }
   end
   object TasPink: TImage
-    Left = 96
+    Left = 134
     Height = 243
-    Top = 96
+    Top = 125
     Width = 250
     OnClick = TasPinkClick
     Picture.Data = {
@@ -13051,9 +13051,9 @@ object FormImage: TFormImage
     ParentFont = False
   end
   object TasBiru: TImage
-    Left = 70
+    Left = 88
     Height = 238
-    Top = 83
+    Top = 131
     Width = 301
     OnClick = TasBiruClick
     Picture.Data = {

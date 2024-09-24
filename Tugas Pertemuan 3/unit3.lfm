@@ -1,7 +1,7 @@
 object FormImage: TFormImage
-  Left = 468
+  Left = 262
   Height = 414
-  Top = 124
+  Top = 119
   Width = 872
   Caption = 'FormImage'
   ClientHeight = 414

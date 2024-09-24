@@ -120,7 +120,7 @@ begin
   if NamaTas = 'TAS 01' then
   begin
     TasPutih.Visible := True;
-    DeskripsiTas.Lines.Text := 'Isi wae';
+    DeskripsiTas.Lines.Text := 'Tas ini cocok untuk sekolah biar lebih sosialita';
     MerkTas.Text := 'Tas Sekolah';
     Ukuran.Text := '24 cm';
     Warni.Text := 'Taffeta White';
@@ -129,7 +129,7 @@ begin
   else if NamaTas = 'TAS 02' then
   begin
     TasMerah.Visible := True;
-    DeskripsiTas.Lines.Text := 'Isi wae';
+    DeskripsiTas.Lines.Text := 'Tas ini cocok untuk berbelanja biar makin jadi sugar mommy';
     MerkTas.Text := 'Tas Belanja';
     Ukuran.Text := '25 cm';
     Warni.Text := 'Canyon River Red';
@@ -137,7 +137,7 @@ begin
   else if NamaTas = 'TAS 03' then
   begin
     TasBiruMuda.Visible := True;
-    DeskripsiTas.Lines.Text := 'Isi wae';
+    DeskripsiTas.Lines.Text := 'Tas ini cocok untuk belanja biar makin keliatan crazy rich';
     MerkTas.Text := 'Tas Belanja';
     Ukuran.Text := '30 cm';
     Warni.Text := 'Sand Blue Glow';
@@ -145,7 +145,7 @@ begin
   else if NamaTas = 'TAS 04' then
   begin
     TasPink.Visible := True;
-    DeskripsiTas.Lines.Text := 'Isi wae';
+    DeskripsiTas.Lines.Text := 'Tas ini cocok buat main biar gemes';
     MerkTas.Text := 'Tas Main';
     Ukuran.Text := '30 cm';
     Warni.Text := 'Platinum Pink';
@@ -153,7 +153,6 @@ begin
   else if NamaTas = 'TAS 05' then
   begin
     TasBiru.Visible := True;
-    DeskripsiTas.Lines.Text := 'Isi wae';
     MerkTas.Text := 'Tas Bebas';
     Ukuran.Text := '25 cm';
     Warni.Text := 'Platinum Blue';
