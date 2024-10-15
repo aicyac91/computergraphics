@@ -1,0 +1,116 @@
+object FormGeomteriDasar: TFormGeomteriDasar
+  Left = 868
+  Height = 298
+  Top = 115
+  Width = 486
+  Caption = 'Form Geometri Dasar'
+  ClientHeight = 298
+  ClientWidth = 486
+  OnCreate = FormCreate
+  OnMouseMove = FormMouseMove
+  LCLVersion = '3.4.0.0'
+  object label1: TLabel
+    Left = 15
+    Height = 17
+    Top = 18
+    Width = 89
+    Caption = 'LabelKoordinat'
+    OnClick = label1Click
+  end
+  object ButtonTitik: TButton
+    Left = 15
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'Titik'
+    TabOrder = 0
+    OnClick = ButtonTitikClick
+  end
+  object ButtonGaris1: TButton
+    Left = 104
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'Garis 1'
+    TabOrder = 1
+    OnClick = ButtonGaris1Click
+  end
+  object ButtonGaris2: TButton
+    Left = 192
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'Garis 2'
+    TabOrder = 2
+    OnClick = ButtonGaris2Click
+  end
+  object ButtonGaris3: TButton
+    Left = 280
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'Garis 3'
+    TabOrder = 3
+    OnClick = ButtonGaris3Click
+  end
+  object ButtonRectangle: TButton
+    Left = 368
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'Rectangle'
+    TabOrder = 4
+    OnClick = ButtonRectangleClick
+  end
+  object ButtonRoundRect: TButton
+    Left = 15
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'RoundRect'
+    TabOrder = 5
+    OnClick = ButtonRoundRectClick
+  end
+  object ButtonEllipse: TButton
+    Left = 104
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Ellipse'
+    TabOrder = 6
+    OnClick = ButtonEllipseClick
+  end
+  object ButtonEllipse2: TButton
+    Left = 192
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Ellipse 2'
+    TabOrder = 7
+    OnClick = ButtonEllipse2Click
+  end
+  object ButtonKotak: TButton
+    Left = 280
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Kotak'
+    TabOrder = 8
+    OnClick = ButtonKotakClick
+  end
+  object ButtonHapus: TButton
+    Left = 368
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Hapus'
+    TabOrder = 9
+    OnClick = ButtonHapusClick
+  end
+  object PaintBox1: TPaintBox
+    Left = 216
+    Height = 105
+    Top = 92
+    Width = 105
+  end
+end
