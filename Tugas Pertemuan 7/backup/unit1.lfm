@@ -1,0 +1,69 @@
+object Form1: TForm1
+  Left = 784
+  Height = 331
+  Top = 177
+  Width = 525
+  Caption = 'Form1'
+  ClientHeight = 331
+  ClientWidth = 525
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 248
+    Height = 17
+    Top = 16
+    Width = 15
+    Caption = 'SX'
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 248
+    Height = 17
+    Top = 48
+    Width = 14
+    Caption = 'SY'
+    OnClick = Label2Click
+  end
+  object EditSX: TEdit
+    Left = 312
+    Height = 25
+    Top = 8
+    Width = 80
+    TabOrder = 0
+    OnChange = EditSXChange
+  end
+  object EditSY: TEdit
+    Left = 312
+    Height = 25
+    Top = 40
+    Width = 80
+    TabOrder = 1
+    OnChange = EditSYChange
+  end
+  object Button1: TButton
+    Left = 432
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Kotak'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 432
+    Height = 25
+    Top = 48
+    Width = 75
+    Caption = 'Besarkan'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 432
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Kecilkan'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+end
